@@ -1,8 +1,8 @@
 # flume_v2
 
-Mehrpad Moattari, Ryan Perez, Ashkan Taghavi, Jake Aaknes, Nicholas Seah
+In this project, data is pulled daily via the Flume Water API to run various analyses on water usage in my home. The water usage was integrated along with gas/electric usage and temperature data to determine correlation between utilities and weather.
 
-In addition to the PowerPoint, we have a folder with various .py files:
+In addition to the PowerPoint, there is a folder with various .py files:
 
 # glue_api_to_s3.py
 Script to query data from Flume API once a day, using a SecretManager secret for login password.
